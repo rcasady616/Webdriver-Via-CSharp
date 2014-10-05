@@ -15,6 +15,7 @@ Contents:
    setup
    exercise-0
    exercise-1
+   exercise-2
 
 
 Indices and tables
@@ -23,4 +24,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-

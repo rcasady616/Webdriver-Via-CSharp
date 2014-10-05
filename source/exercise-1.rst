@@ -13,19 +13,13 @@ Exercise 1 - A Good First Program
 Now your code should look like this
 
 .. code-block:: csharp
-
 	using OpenQA.Selenium.Firefox;
-
-	namespace example_0
+	class exercise1
 	{
-		class Program
+		static void Main(string[] args)
 		{
-			static void Main(string[] args)
-			{
-				FirefoxDriver ff = new FirefoxDriver();
-				ff.Navigate().GoToUrl("http://RickCasady.com");
-				ff.Dispose();
-			}
+			FirefoxDriver ff = new FirefoxDriver();
+			ff.Navigate().GoToUrl("http://RickCasady.com");
+			ff.Dispose();
 		}
 	}
-	
