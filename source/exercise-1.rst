@@ -1,7 +1,7 @@
-.. example-1:
+.. exercise-1:
 
 =========================================
-Example 1 - A Good First Program
+Exercise 1 - A Good First Program
 =========================================
 
 

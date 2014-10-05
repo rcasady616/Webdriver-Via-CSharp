@@ -1,7 +1,7 @@
-.. example-0:
+.. exercise-0:
 
 =========================================
-Example 0 - Setup the Enviroment for developing with WebDriver
+Exercise 0 - Setup the Enviroment for developing with WebDriver
 =========================================
 
 **Topics covered**

@@ -13,8 +13,8 @@ Contents:
 
    introduction
    setup
-   example-0
-   example-1
+   exercise-0
+   exercise-1
 
 
 Indices and tables
