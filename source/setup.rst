@@ -1,7 +1,7 @@
 .. setup:
 
 =========================
-Setting up the enviorment
+Setting up the environment
 =========================
 
 The tasks of setting up to program in C# Webdriver are
