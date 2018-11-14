@@ -12,10 +12,10 @@ Contents:
    :maxdepth: 2
 
    introduction
-   setup
    exercise-0
    exercise-1
    exercise-2
+   exercise-3
 
 
 Indices and tables

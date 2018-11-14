@@ -1,25 +1,28 @@
 .. exercise-2:
 
-=========================================
-Exercise 2 - Comments
-=========================================
+=================================
+Exercise 2 - A Good First Program
+=================================
 
-Comments are a very useful for explaining and documenting code. 
+
+.. code-block :: csharp
+
+	FirefoxDriver ff = new FirefoxDriver();
+	ff.Navigate().GoToUrl("http://RickCasady.com");
+	ff.Dispose();
+	  
+Now your code should look like this
+
 
 .. code-block:: csharp
-	class Exercise2
+
+	using OpenQA.Selenium.Firefox;
+	class exercise1
 	{
 		static void Main(string[] args)
 		{
-			// Simple inline comment you can place anything here and its ignored by the compiler 
-			
-			Console.WriteLine("Code and comment on same line"); // This is the comment
-			
-			/* line one
-			Multi line comment
-			*/ line three
-			
-			// You can also use a comment to disable a piece of code 
-			//Console.WriteLine("This wont run");
+			FirefoxDriver ff = new FirefoxDriver();
+			ff.Navigate().GoToUrl("http://RickCasady.com");
+			ff.Dispose();
 		}
 	}
