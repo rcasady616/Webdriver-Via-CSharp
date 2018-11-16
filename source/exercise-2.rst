@@ -4,6 +4,7 @@
 Exercise 2 - A Good First Program
 =================================
 
+Create a new project the same way you did in :doc:`exercise-1` this time name it **Exercise-2**
 
 .. code-block :: csharp
 

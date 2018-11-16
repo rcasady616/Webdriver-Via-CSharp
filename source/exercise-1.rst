@@ -1,31 +1,30 @@
 .. exercise-1:
 
 ================================================================
-Exercise 1 - Setup the Environment for developing with WebDriver
+Exercise 1 - Creating a first C# project
 ================================================================
 
-**Topics covered**
-  * `Creating Project`_
-  * `Add a reference to WebDriver`_
-  * `Build for the first time`_
+If you already know Visual Studio and how to create a C# project you can move on to the next exercise otherwise the steps below will outline how to create a project and add the needed references for using Selenium WebDriver. 
+You are going to create a folder where all your work from these exercises will be saved
 
-Creating Project
-----------------
+Creating a C# Project
+---------------------
 Create your fist Visual Studio project
   + Create a working folder where all you work will be stored
      + Open explorer and go to the C drive
      + Create a folder called "CSharpSeleniumExamples"
+  
   + Open Visual Studio
-  + In the top menu Select: File > New > Project
-  + In the left tree Select: Templates > Visual C# > Windows
-  + Select the project type "Console Application"
-     + Type "Example_0" in the Name textbox 
-     + Change the location to "c:\CSharpSeleniumExamples\"
-     + Deselect the checkbox "Create a directory for solution"
+  + In the top menu Select: `File` > `New` > `Project`
+  + In the left tree Select: `Other Project Types` > `Visual Studio Solutions`
+  + Select the project type `Blank Solution`
+     + Type `CSharpSeleniumExamples` in the Name textbox 
+     + Change the location to where you want them stored
      + Click "Ok" button
+     
   + Now save the project by clicking the "Save All" icon, or (Ctrl+Shift+S)
 
-So now you should have a new folder called "CSharpSeleniumExamples" with a new project saved inside a folder called "Example_0".
+So now you should have a new folder called "CSharpSeleniumExamples" with a new project saved inside a folder called "Exercise_0".
 
 Add a reference to WebDriver
 ----------------------------
@@ -41,7 +40,7 @@ Add a reference to WebDriver
   * If you dont have the project open already, open it now
      * Open Visual Studio
      * In the top menu Select: File > Open > Project/Solution
-     * browse to the folder "c:\CSharpSeleniumExamples\Example_0" and select the file named "example_0.csproj"
+     * browse to the folder "c:\CSharpSeleniumExamples\Exercise_0" and select the file named "exercise_0.csproj"
   * If do you already have the project open
      * Find the "Solution Explorer"
         * If the "Solution Explorer" missing go to the top menu Select: View > Solution Explorer 
@@ -56,14 +55,38 @@ Add a reference to WebDriver
      * Click "Ok"
      * Now you should see a "WebDriver" in the list of "References" in "Solution Explorer"
 	 * Now save the project by clicking the "Save All" icon, or (Ctrl+Shift+S)
-     
+
+Now you should a have a working C# project that is referencing the needed Selenium WebDriver libraries for Web UI automation
+
 Build for the first time
 ------------------------
   * If you dont have the project open already, open it now
       * Open Visual Studio
       * In the top menu Select: File > Open > Project/Solution
-      * browse to the folder "c:\CSharpSeleniumExamples\Example_0" and select the file named "example_0.csproj"
+      * browse to the folder "c:\CSharpSeleniumExamples\Exercise_0" and select the file named "exercise_0.csproj"
   * If do you already have the project open
       * Find the "Solution Explorer" and double click to open, the file named "Program.cs"
 	  * Inside the file you should see special method called "Main"
 	  * Type the following code in the Main() n method
+
+.. code-block :: csharp
+
+	FirefoxDriver ff = new FirefoxDriver();
+	ff.Navigate().GoToUrl("http://RickCasady.com");
+	ff.Dispose();
+	  
+Now your code should look like this
+
+
+.. code-block:: csharp
+
+	using OpenQA.Selenium.Firefox;
+	class exercise1
+	{
+		static void Main(string[] args)
+		{
+			FirefoxDriver ff = new FirefoxDriver();
+			ff.Navigate().GoToUrl("http://RickCasady.com");
+			ff.Dispose();
+		}
+	}
