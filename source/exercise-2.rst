@@ -1,8 +1,8 @@
 .. exercise-2:
 
-=================================
-Exercise 2 - A Good First Program
-=================================
+======================================
+Exercise 2 - Debugging and Breakpoints 
+======================================
 
 Create a new project the same way you did in :doc:`exercise-1` this time name it **Exercise-2**
 
