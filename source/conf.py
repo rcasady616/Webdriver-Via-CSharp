@@ -24,7 +24,7 @@ copyright = u'2018, Richard Casady'
 author = u'Richard Casady'
 
 # The short X.Y version
-version = u''
+version = u'0.1.0'
 # The full version, including alpha/beta/rc tags
 release = u'0.1.0'
 

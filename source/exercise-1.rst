@@ -46,11 +46,11 @@ Create a project for **Exercise-1**, the project will be in the language of C# a
 ------------------------------------------------
 .. sidebar:: Notes
 
-  **NuGet** is a package manager
+  **NuGet** is a package manager for adding build dependencies in a quick and light weight way
 
-  **WebDriver** or Selenium.WebDriver is a ...
+  **Selenium.WebDriver** NuGet package contains the Selenium Webdriver C# binaries needed for creating UI Automation.
 
-  **ChromeDriver** is the browser specific server needed by WebDriver to interact with Chrome, FireFox and IE require there own versions in order to work.
+  **Selenium.WebDriver.ChromeDriver** NuGet package is the browser specific server needed by WebDriver to interact with Chrome. (FireFox and IE require there own versions in order to work.)
 
 + From the ``Solution Explorer`` 
       + Right click the solution: ``WebDriverViaCSharp``
