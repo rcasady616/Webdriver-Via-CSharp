@@ -6,6 +6,10 @@ Introduction
 
 These lessons are practice based, you should attempt to type out each lesson and not copy paste. 
 If you fully understand the concepts in the exercise feel free to jump forward but keep in mind if you dont understand the lesson and skip it you might be confused in later lessons.
+
+**The Language**
+Selenium WebDriver has 5 different client side bindings and there are a bunch of third party client side bindings available that are not part of the Selenium open source project.
+At the time of writing this: Java, C#, Python, Ruby and JavaScript are available from the Selenium download page.
 All code in these lessons will be in C# you can use Visual Studio 2017 Community (free edition)   
 
 **Each exercise will have the following sections**
@@ -17,7 +21,7 @@ All code in these lessons will be in C# you can use Visual Studio 2017 Community
 **The Code** will be highlighted and formated differently than english text so that it is easier to read.
     + All inline code will look like this: ``string myString = "";`` or ``static void Main(string[] args)``
     + All code blocks will look like this: 
-    
+
 .. code-block:: csharp
   :linenos:
 
@@ -25,7 +29,6 @@ All code in these lessons will be in C# you can use Visual Studio 2017 Community
     int myInt = 0;
     bool myBool = true;
   
-
 
 .. warning:: 
 
