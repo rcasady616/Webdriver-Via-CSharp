@@ -5,6 +5,10 @@ Exercise 0 - Debugging
 =====================================================
 To be successful at debugging it's important to understand the following debugging concepts: **Breakpoints**, **Call Stack**, **Autos**, **Watch**. 
 
+A debugger is a very specialized developer tool. A debugger attaches to your running app and allows you to inspect your code. [#f1]_
+
+
+
 Breakpoints
 +++++++++++
 + What is a Breakpoints
@@ -33,6 +37,10 @@ Its Important to develop skills to mitigate this unavoidable situation.
 
 Immediate Window
 ``````````````````
-
+ 
 Edit and Continue
 ``````````````````
+
+.. rubric:: References
+
+.. [#f1] [Microsoft] (10/16/2018) `What is debugging?` https://docs.microsoft.com/en-us/visualstudio/debugger/what-is-debugging?view=vs-2017
