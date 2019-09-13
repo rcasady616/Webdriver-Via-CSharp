@@ -3,7 +3,9 @@
 =====================================================
 Exercise 0 - Setting up the environment
 =====================================================
-Setting up the development environment
+Setting up the development environment in Windows
+    + How to install the software and tools used in these exercises 
+    + How to configure your your browsers running for running automation
 
 Install software and tools
 --------------------------------

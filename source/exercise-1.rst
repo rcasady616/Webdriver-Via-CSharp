@@ -56,14 +56,14 @@ Create a project for **Exercise-1**, the project will be in the language of C# a
       + Right click the solution: ``WebDriverViaCSharp``
       + Select ``Manage NuGet Package For Solution...``
       + To add **Selenium.WebDriver** NuGet package
-          + From the ``NuGet Solution*`` dialog
+          + From the ``NuGet - Solution`` dialog 
           + Select ``Browse`` from the top Tabs
           + Type ``WebDriver`` in the ``Search`` textbox
           + Click on ``Selenium.WebDriver`` from the list
           + In the right pain click the checkbox next to the project named: ``Exercise-01``
           + Click ``Install``
       + To add **Selenium.WebDriver.ChromeDriver** NuGet package
-          + From the ``NuGet Solution*`` dialog
+          + From the ``NuGet - Solution`` dialog 
           + Select ``Browse`` from the top Tabs
           + Type ``ChromeDriver`` in the ``Search`` textbox
           + Click on ``Selenium.WebDriver.ChromeDriver`` from the list
