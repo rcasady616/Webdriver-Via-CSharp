@@ -22,3 +22,7 @@ Configure IE
 ------------------
 Configure IE 
     #. From the start menu, open a **Powershell** window as Admin
+
+.. admonition:: Summary
+
+    - risk

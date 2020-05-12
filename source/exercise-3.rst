@@ -4,6 +4,8 @@
 Exercise 3 - Comments 
 =========================================
 
+	+ Create inline and bulk comment blocks
+
 Comments are a very useful for explaining in english the code and your intentions.
 
 .. code-block:: csharp

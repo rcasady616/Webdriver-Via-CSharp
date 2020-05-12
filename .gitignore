@@ -218,3 +218,6 @@ pip-log.txt
 #Sphinx
 build/
 build/*
+
+packages
+.vs

@@ -3,9 +3,13 @@
 ================================================================
 Exercise 1 - Creating a first WebDriver project
 ================================================================
-
 If you already know Visual Studio and how to create a C# project you can move on to the next exercise otherwise the steps below will outline how to create a project and add the needed references for using Selenium WebDriver. 
 You are going to create a folder where all your work from these exercises will be saved
+  
+.. admonition:: Goals
+
+  + Create and execute your first program that uses Selenium WebDriver
+  + Understand the basics of WebDriver 
 
 1. Creating a Solution for the Exercises
 ----------------------------------------
@@ -99,7 +103,16 @@ Lets add the code to create a browser driver, navigate to a specific url, and th
     + Click the ``Start`` button in the toolbar at the top
         + You can accomplish the same by (Clicking ``Debug`` > ``Start Debugging``) or (use the key ``F5``) 
 
-.. topic:: Summary
+.. sidebar:: ChromeDriver
+
+  The ``OpenQA.Selenium.Chrome.ChromeDriver`` is the Chrome implementation of the ``IWebDriver`` interface. 
+
+When you run this code you should see a Chrome browser come up and then it should navigate to the url. Once the url is loaded the browser will close and the session will end, its possible the url will load so quick that you will just see the browser open and then close.
+
+``WebDriver`` and ``RemoteWebDriver`` are the class's through which the developer (you) controls the browser. 
+``ChromeDriver`` is a derived from the ``RemoteWebDriver``, ``ChromeDriver`` has all the functionality of its parent class ``RemoteWebDriver`` and some Chrome specific implementation as well.
+
+.. admonition:: Summary
 
   - You should be able to create solutions and add projects. 
   - You also should be able to add NuGet packages to you projects. 

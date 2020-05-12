@@ -12,6 +12,7 @@ Welcome to WebDriver Via C#'s documentation!
    exercise-1
    exercise-2
    exercise-3
+   exercise-4
    AppendixA/AppendixAIndex
 
 
